@@ -36,7 +36,7 @@ input[type="file"] {
 /* CSS untuk tombol Submit */
 input[type="submit"] {
     text-align: center;
-    background-color: #1f71c5; /* Merah Muda */
+    background-color: #009c2c; /* Merah Muda */
     color: #fff;
     padding: 10px 20px;
     border: none;
