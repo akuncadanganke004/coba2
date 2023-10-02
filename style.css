@@ -1,0 +1,66 @@
+/* CSS untuk menghias formulir */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+form {
+    
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a1b5e3; /* Biru Muda */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS untuk label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Warna Teks Abu-abu Tua */
+}
+
+/* CSS untuk input teks */
+input[type="text"],
+input[type="tel"],
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS untuk tombol Submit */
+input[type="submit"] {
+    text-align: center;
+    background-color: #1f71c5; /* Merah Muda */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tengah{
+    display: block; /* Membuat tombol "Submit" mengambil lebar penuh dalam elemen form */
+    margin: 0 auto; /* Mengatur margin otomatis untuk tombol "Submit" secara horizontal */
+}
+
+
+/* CSS untuk gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* CSS untuk header */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff; /* Biru Terang */
+}
